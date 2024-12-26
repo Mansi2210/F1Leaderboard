@@ -1,0 +1,33 @@
+/* app.css */
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('assets/fonts/Formula1-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+  body {
+    /* Add image */
+    background-image: url("./assets/bg.png");
+
+    /* Make image center */
+    background-position: center;
+
+    /* Make image fixed */
+    background-attachment: fixed;
+
+    /* Not repeat images */
+    background-repeat: no-repeat;
+
+    /* Set background size auto */
+    background-size: cover;
+}
+
+/* Media query for mobile devices  */
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url("./assets/bg.png");
+    }
+}
+ 

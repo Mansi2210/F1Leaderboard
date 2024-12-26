@@ -1,0 +1,107 @@
+/* Table container styling */
+/* Import font1 */
+@font-face {
+    font-family: 'Font1';
+    src: url('./assets/Fonts/Formula1-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Import font2 */
+  @font-face {
+    font-family: 'Font2';
+    src: url('./assets/Fonts/Formula1-Wide.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.table-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Font1", serif;
+    margin-bottom: 20px;
+    color: #fdfbfb;
+  }
+  
+  /* Loading and Error Messages */
+  .loading,
+  .error {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4d4f;
+    text-align: center;
+  }
+
+.containertab{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+  /* Table styling */
+  .styled-table {
+    width: 600px;
+    border-collapse: collapse;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 25px 0;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    -webkit-backdrop-filter: blur(15px) brightness(100%);
+    backdrop-filter: blur(15px) brightness(100%);
+    background-color: #ffffff05;
+    border: 1px solid;
+    border-color: #ffffffcc;
+    border-radius: 32px;
+    box-shadow: inset 16px 32px 100px #afacac40, inset -16px -100px 100px #afacac40;
+  }
+  
+  /* Table Header */
+  .header {
+    font-family: "Font1", serif;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    width: max-content;
+    padding: 0px 100px;
+    
+  }
+  .styled-table th{
+    font-family: "Font1", serif;
+    padding: 20px 50px;
+    color: #ffffff;
+    font-size: 28px;
+  }
+  /* Table Rows */
+  .styled-table td {
+    font-family: "Font1", serif;
+    padding: 20px 32px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+ 
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .styled-table th,
+    .styled-table td {
+      padding: 16px;
+    }
+  }
+  

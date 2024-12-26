@@ -1,0 +1,106 @@
+
+/* Import font1 */
+@font-face {
+    font-family: 'Font1';
+    src: url('./assets/Fonts/Formula1-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Import font2 */
+  @font-face {
+    font-family: 'Font2';
+    src: url('./assets/Fonts/Formula1-Wide.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  
+.frame {
+    width: 100%;
+    margin: 0;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+}
+
+
+.frame .capa {
+    height: 64px;
+    position: relative;
+    width: 100px;
+}
+
+.frame .signal {
+    height: 64px;
+    position: relative;
+    width: 34.17px;
+}
+
+.frame .text-wrapper {
+    color: #faf6f6;
+    font-family: "Font2", serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+}
+@media only screen and (max-width: 950px) {
+    .frame .text-wrapper {
+        font-size: 20px;
+    }
+}
+/* Container styling */
+.logos-container {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  
+  /* Row layout for logos */
+  .logos-row {
+    display: flex;
+    justify-content: center; /* Center logos horizontally */
+    gap: 20px; /* Space between logos */
+  }
+  
+  /* Styling for each logo */
+  .logo {
+    max-width: 120px; /* Limit the size of each logo */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+  }
+  .logo3{
+    max-width: 150px;
+  }
+  .logo7{
+    max-width: 160px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Scale logo on hover */
+  }
+  .logo3:hover{
+    transform: scale(1.1);
+  }
+  .logo7:hover{
+    transform: scale(1.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .logos-row {
+      flex-wrap: wrap; /* Allow logos to wrap in smaller screens */
+      gap: 10px;
+    }
+  
+    .logo {
+      max-width: 100px;
+    }
+  }
+  
