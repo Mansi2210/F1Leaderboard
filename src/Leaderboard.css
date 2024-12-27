@@ -20,10 +20,10 @@
 .frame {
     width: 100%;
     margin: 0;
-    display:inline-flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding-top: 22px;
+    padding: 40px 0px;
 }
 
 
@@ -47,7 +47,8 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    white-space: nowrap;
+    align-items: center;
+    text-align: center;
 }
 @media only screen and (max-width: 950px) {
     .frame .text-wrapper {
@@ -66,7 +67,8 @@
   .logos-row {
     display: flex;
     justify-content: center; /* Center logos horizontally */
-    gap: 20px; /* Space between logos */
+    gap: 40px; /* Space between logos */
+    
   }
   
   /* Styling for each logo */
@@ -93,7 +95,7 @@
   }
   
   /* Responsive adjustments */
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .logos-row {
       flex-wrap: wrap; /* Allow logos to wrap in smaller screens */
       gap: 10px;

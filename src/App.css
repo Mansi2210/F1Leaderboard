@@ -9,8 +9,8 @@
 
   body {
     /* Add image */
-    background-image: url("./assets/bg.png");
-
+    /* background-image: url("./assets/bg.png"); */
+    background-color: #1e1e1e;
     /* Make image center */
     background-position: center;
 
@@ -23,11 +23,15 @@
     /* Set background size auto */
     background-size: cover;
 }
+/* .container{
+  width: 640px;
+  height: 1024px;
+} */
 
 /* Media query for mobile devices  */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
     body {
         background-image: url("./assets/bg.png");
     }
-}
+} */
  
