@@ -110,5 +110,8 @@
     .styled-table td {
       padding: 12px;
     }
+    .containertab, .styled-table{
+      width: 100%;
+    }
   }
   

@@ -58,7 +58,8 @@
 }
 @media only screen and (max-width: 400px) {
   .frame .text-wrapper {
-      font-size: 14px;
+      font-size: 12px;
+      width: 100%;
   }
 }
 /* Container styling */
