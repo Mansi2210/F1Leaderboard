@@ -56,6 +56,11 @@
         font-size: 20px;
     }
 }
+@media only screen and (max-width: 400px) {
+  .frame .text-wrapper {
+      font-size: 14px;
+  }
+}
 /* Container styling */
 .logos-container {
     text-align: center;
@@ -104,6 +109,16 @@
   
     .logo {
       max-width: 100px;
+    }
+  }
+  @media (max-width: 400px) {
+    .logos-row {
+      flex-wrap: wrap; /* Allow logos to wrap in smaller screens */
+      gap: 10px;
+    }
+  
+    .logo {
+      max-width: 80px;
     }
   }
   

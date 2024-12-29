@@ -104,4 +104,11 @@
       padding: 16px;
     }
   }
+
+  @media (max-width: 400px) {
+    .styled-table th,
+    .styled-table td {
+      padding: 12px;
+    }
+  }
   
