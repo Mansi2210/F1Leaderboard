@@ -22,11 +22,17 @@
 
     /* Set background size auto */
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
-/* .container{
+.container{
   width: 640px;
   height: 1024px;
-} */
+  
+}
 
 /* Media query for mobile devices  */
 /* @media only screen and (max-width: 767px) {
