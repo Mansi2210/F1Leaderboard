@@ -16,11 +16,19 @@
   }
   
 
-  
+.title{
+  width: 100%;
+}
+.titlecontainer{
+  width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .frame {
     width: 100%;
     margin: 0;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0px;
@@ -31,19 +39,20 @@
 .frame .capa {
     height: 64px;
     position: relative;
-    width: 100px;
+    width: 88px;
 }
 
 .frame .signal {
     height: 64px;
     position: relative;
-    width: 34.17px;
+    width: 32px;
 }
 
 .frame .text-wrapper {
     color: #faf6f6;
     font-family: "Font2", serif;
-    font-size: 32px;
+    width: 400px;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
@@ -67,28 +76,32 @@
     text-align: center;
     margin-top: 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   
   /* Row layout for logos */
   .logos-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center; /* Center logos horizontally */
     gap: 40px; /* Space between logos */
-    
+    width: 640px;
   }
   
   /* Styling for each logo */
   .logo {
-    max-width: 120px; /* Limit the size of each logo */
+    max-width: 110px; /* Limit the size of each logo */
     height: auto;
     transition: transform 0.3s ease; /* Smooth scaling on hover */
   }
   .logo3{
-    max-width: 150px;
+    max-width: 120px;
   }
   .logo7{
-    max-width: 160px;
+    max-width: 130px;
   }
   
   .logo:hover {

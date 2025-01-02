@@ -14,7 +14,8 @@ import "./Leaderboard.css";
 
 function Leaderboard(){
     return (
-        <div>
+        <div className="title">
+            
             <div className="frame">
             <img className="capa" alt="Capa" src={capa1} />
             <img className="signal" alt="Signal" src={signal} />
@@ -22,17 +23,19 @@ function Leaderboard(){
             <img className="signal" alt="Signal" src={signal} />
             <img className="capa" alt="Capa" src={capa1} />
             </div>
-            <div className="logos-row">
-            <img src={logo1}  className="logo" />
-            <img src={logo2}  className="logo" />
-            <img src={logo3}  className="logo3" />
-            <img src={logo4}  className="logo" />
-            <img src={logo5}  className="logo" />
-            <img src={logo6}  className="logo" />
-            <img src={logo7}  className="logo7" />
+            <div className="logos-container">
+                <div className="logos-row">
+                <img src={logo1}  className="logo" />
+                <img src={logo2}  className="logo" />
+                <img src={logo3}  className="logo3" />
+                <img src={logo4}  className="logo" />
+                <img src={logo5}  className="logo" />
+                <img src={logo6}  className="logo" />
+                <img src={logo7}  className="logo7" />
+                </div>
+            </div>
             
         </div>
-        </div>
-    );
+    )
 }
-export default Leaderboard;
+export default Leaderboard
