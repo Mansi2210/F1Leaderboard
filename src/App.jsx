@@ -2,7 +2,7 @@
 import './App.css'
 import Leaderboard from './Leaderboard';
 import Scorecard from './Scorecard';
-import Logossec from './logossec';
+import Logos from './Logos';
 
 function App() {
  
@@ -15,7 +15,7 @@ function App() {
         <Scorecard/>
       </div>
       <div>
-        <Logossec/>
+        <Logos/>
       </div>
     </div>
   )
