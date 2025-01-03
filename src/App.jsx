@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Leaderboard from './Leaderboard';
 import Scorecard from './Scorecard';
+import Logossec from './logossec';
 
 function App() {
  
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div>
         <Scorecard/>
+      </div>
+      <div>
+        <Logossec/>
       </div>
     </div>
   )

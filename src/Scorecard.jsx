@@ -52,6 +52,7 @@ const Scorecard = () => {
           ))}
         </tbody>
       </table>
+
     </div>
   )
 }
