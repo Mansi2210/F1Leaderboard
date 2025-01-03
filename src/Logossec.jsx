@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from 'react'
 import logo1 from './assets/logos/01.png';
 import logo2 from './assets/logos/02.png';
 import logo3 from './assets/logos/03.png';
@@ -7,12 +6,12 @@ import logo4 from './assets/logos/04.png';
 import logo5 from './assets/logos/05.png';
 import logo6 from './assets/logos/06.png';
 import logo7 from './assets/logos/07.png';
-import "./Logossec.css";
+import "./logossec.css";
 
 
-function Logossec(){
-    return (
-        <div className="titlep">
+const logossec = () => {
+  return (
+    <div className="titlep">
             
             <div className="logos-container">
                 <div className="logos-row">
@@ -27,6 +26,7 @@ function Logossec(){
             </div>
             
         </div>
-    )
+  )
 }
-export default Logossec
+
+export default logossec
